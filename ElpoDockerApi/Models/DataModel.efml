@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<efcore namespace="ElpoDockerApi" p1:Guid="2f9f9974-2786-448d-8f95-e18c0b46e95b" xmlns:p1="http://devart.com/schemas/EntityDeveloper/1.0">
+  <class name="Person" entity-set="People" table="Person" schema="dbo" p1:Guid="f22c9638-9cab-4d71-ab3c-b897323bd4ce">
+    <id name="Id" type="Int32" value-generated="OnAdd" p1:ValidateRequired="true" p1:Guid="410936ce-02de-4d7b-8743-1976cba8ddaa">
+      <column name="Id" not-null="True" precision="10" scale="0" sql-type="int" p1:unicode="False" />
+    </id>
+    <property name="Name" type="String" p1:nullable="True" p1:ValidateMaxLength="50" p1:ValidateRequired="false" p1:Guid="4daade1c-4ee3-459f-8868-8ba23fb30299">
+      <column name="Name" not-null="False" length="50" sql-type="nvarchar" p1:unicode="True" />
+    </property>
+  </class>
+</efcore>
